@@ -12,7 +12,10 @@ let s:colors = {
   \ "grey": get(s:color_store, "grey", {'gui': '#585858', 'cterm256': '240'}),
   \ "none": get(s:color_store, "none", {'gui': 'NONE', 'cterm256': 'NONE'}),
   \ "comment": get(s:color_store, "comment", {'gui': '#4c8273', 'cterm256': '224'}),
-  \ "lightcyan": get(s:color_store, "lightcyan", {'gui':'#afd7d7','cterm256':'152'})
+  \ "lightcyan": get(s:color_store, "lightcyan",{'gui': '#afd7d7','cterm256':'152'}),
+  \ "lightslategrey": get(s:color_store, "lightslategrey", {'gui': "#8787af", 'cterm256': '103'}),
+  \ "cornsilk": get(s:color_store,"cornsilk",{'gui': "#ffffd7", 'cterm256':'230'}),
+  \ "mediumpurple": get(s:color_store, "mediumpurple",{'gui':'#5f5f87', 'cterm256':'60'})
   \}
 
 function! candid#GetColors()

@@ -54,6 +54,9 @@ let s:none = s:colors.none
 let s:viridian = s:colors.comment
 let s:pale_black = s:colors.menublack
 let s:light_cyan3 = s:colors.lightcyan
+let s:light_slate_grey = s:colors.lightslategrey
+let s:cornsilk1 = s:colors.cornsilk
+let s:medium_purple4 = s:colors.mediumpurple
 "}}}
 
 "--------------------
@@ -70,7 +73,10 @@ call <sid>hi('CursorLine', s:none, s:pale_black, 'none', {})
 call <sid>hi('EndOfBuffer', s:mustard, s:none, 'none', {})
 call <sid>hi('Conceal', s:sea_serpent, s:none, 'none', {})
 "call <sid>hi('CursorColumn', s:none, s:sea_serpent, 'none', {})
-call <sid>hi('CursorColumn', s:none, s:light_cyan3, 'none', {})
+"call <sid>hi('CursorColumn', s:none, s:light_cyan3, 'none', {})
+"call <sid>hi('CursorColumn', s:none, s:light_slate_grey, 'none', {})
+"call <sid>hi('CursorColumn', s:none, s:cornsilk1, 'none', {})
+call <sid>hi('CursorColumn', s:none, s:medium_purple4, 'none', {})
 call <sid>hi('ColorColumn', s:none, s:mummys_tomb, 'none', {})
 call <sid>hi('FoldColumn', s:mummys_tomb, s:raisin_black, 'none', {})
 call <sid>hi('SignColumn', s:none, s:raisin_black, 'none', {})

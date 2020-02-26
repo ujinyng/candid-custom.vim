@@ -14,6 +14,9 @@ let s:isabelline = [ s:colors.white.gui, s:colors.white.cterm256 ]
 let s:raisin_black = [ s:colors.black.gui, s:colors.black.cterm256 ]
 let s:mummys_tomb = [ s:colors.comment.gui, s:colors.comment.cterm256 ]
 let s:light_cyan3 = [ s:colors.lightcyan.gui, s:colors.lightcyan.cterm256 ]
+let s:light_slate_grey = [ s:colors.lightslategrey.gui, s:colors.lightslategrey.cterm256 ]
+let s:cornsilk1 = [s:colors.cornsilk.gui, s:colors.cornsilk.cterm256 ]
+
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:isabelline, s:raisin_black ], [ s:eucalyptus, s:raisin_black ] ]
