@@ -1,3 +1,5 @@
+> This repo is forked from [flrnd/candid.vim](https://github.com/flrnd/candid.vim) I change the cursor column color.
+
 # candid.vim
 
 ![candid.vim a dark color scheme for vim/neovim with vibrant colors](https://github.com/flrnprz/candid.vim/blob/master/candid-screen.png)
